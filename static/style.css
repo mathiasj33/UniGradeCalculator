@@ -55,6 +55,10 @@ body {
     vertical-align: top;
 }
 
+.hidden {
+    display: none;
+}
+
 .cover-container {
     margin-right: auto;
     margin-left: auto;
