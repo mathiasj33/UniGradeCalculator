@@ -8,8 +8,8 @@ def hello_world():
 
 
 def init_static_files():
-    url_for('static', filename='style.css')
-    url_for('static', filename='background.jpg')
+    url_for('static')
+    # url_for('static', filename='background.jpg')
 
 
 if __name__ == '__main__':

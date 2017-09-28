@@ -166,3 +166,9 @@ body {
         width: 42rem;
     }
 }
+
+/* Modified bootstrap classes */
+.btn-primary {
+    background-color: #4755ff;
+    border-color: #4755ff;
+}
