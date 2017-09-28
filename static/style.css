@@ -59,6 +59,11 @@ body {
     display: none;
 }
 
+.login-form {
+    width: 400px;
+    margin: 0px auto;
+}
+
 .cover-container {
     margin-right: auto;
     margin-left: auto;
@@ -172,6 +177,10 @@ body {
 }
 
 /* Modified bootstrap classes */
+.btn {
+    cursor: pointer;
+}
+
 .btn-primary {
     background-color: #4755ff;
     border-color: #4755ff;
