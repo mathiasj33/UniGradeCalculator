@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    print('Hello world', file=sys.stderr)
     return render_template('index.html')
 
 
@@ -15,8 +14,15 @@ def main():
 def login():
     username = request.form["username"]
     password = request.form["password"]
-    if not username == "mathiasj" and password == 'selorenus12':
-        return redirect('/') # TODO: hier weiter machen
+    print(request.form, file=sys.stderr)
+    if username == "mj" and password == 'secretpassword':
+        return "ok"
+    return "error"
+
+
+@app.route('/dashboard')
+def dashboard():
+    return "Dashboard"
 
 
 def init_static_files():
