@@ -13,14 +13,10 @@ $(document).ready(function () {
     });
 
     $("#login-button").click(login);
-    $("#password").keypress(function (e) {
-        if (e.which == 13) {
-            login();
-        }
-    });
 });
 
-function login() {
+function login(e) {
+    e.preventDefault();
     $("#error-text").fadeOut();
     $.post("/login", {
         username: $("#username").val(),

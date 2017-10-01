@@ -1,0 +1,26 @@
+1506807079123	geckodriver	INFO	geckodriver 0.19.0
+1506807079130	geckodriver	INFO	Listening on 127.0.0.1:50916
+1506807081127	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Mathias\\AppData\\Local\\Temp\\rust_mozprofile.Wa98k1VrqyFO"
+1506807082014	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506807082849	Marionette	INFO	Enabled via --marionette
+1506807086713	Marionette	INFO	Listening on port 50922
+1506807086724	Marionette	INFO	Listening on port 50922
+1506807086938	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506807086970	Marionette	DEBUG	loaded listener.js
+1506807086989	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506807087319	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506807087319	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506807087347	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://campus.tum.de/tumonline/webnav.ini"
+1506807087928	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://campus.tum.de/tumonline/webnav.menue"
+1506807088198	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://campus.tum.de/tumonline/webnav.willkommen"
+1506807088239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://campus.tum.de/tumonline/wborgbaum.wbtree"
+1506807088654	Marionette	DEBUG	Received DOM event "pageshow" for "https://campus.tum.de/tumonline/webnav.menue"
+1506807088659	Marionette	DEBUG	Received DOM event "pageshow" for "https://campus.tum.de/tumonline/webnav.willkommen"
+1506807088669	Marionette	DEBUG	Received DOM event "pageshow" for "https://campus.tum.de/tumonline/wborgbaum.wbtree"
+1506807088671	Marionette	DEBUG	Received DOM event "pageshow" for "https://campus.tum.de/tumonline/webnav.ini"
+[GPU 8872] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8872] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8872] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

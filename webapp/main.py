@@ -1,5 +1,5 @@
 from __future__ import print_function
-from flask import Flask, render_template, url_for, request, redirect
+from flask import Flask, render_template, url_for, request, session  # TODO: start implementing the session specific stuff
 import sys
 
 app = Flask(__name__)
@@ -15,7 +15,7 @@ def login():
     username = request.form["username"]
     password = request.form["password"]
     print(request.form, file=sys.stderr)
-    if username == "mj" and password == 'secretpassword':
+    if username == "mj" and password == 'secretpassword':  # TODO: replace passwords with a user manager and JSON loader
         return "ok"
     return "error"
 
